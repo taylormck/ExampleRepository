@@ -3,6 +3,8 @@
 language: cpp
 compiler:
     - g++
+before_script:
+    - sudo apt-get install libgtest-dev
 script: "make test"
 branches:
     only:
