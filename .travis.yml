@@ -1,0 +1,9 @@
+# This file tells Travis CI how to build and run your tests
+
+language: cpp
+compiler:
+    - g++
+script: "make test"
+branches:
+    only:
+        - master
