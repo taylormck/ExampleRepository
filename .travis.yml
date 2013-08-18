@@ -11,7 +11,7 @@ before_script:
     - sudo cmake .
     - sudo make
     - sudo mv libg* /usr/lib/
-    - cd OLD_DIRECTORY
+    - cd $OLD_DIRECTORY
 script: "make test"
 branches:
     only:
