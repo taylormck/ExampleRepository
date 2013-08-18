@@ -11,3 +11,15 @@
 *.lai
 *.la
 *.a
+
+# Everything above this line is Github's default C++ .gitignore
+# I usually add the binaries and a few oddities to help keep my
+# git repos clean
+
+# Binaries
+Test
+
+# Network file system artifacts
+# This often show up when using sublime with a networked file system,
+# like the the public UTCS machines
+.nfs*
