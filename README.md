@@ -1,4 +1,4 @@
-TravisCIExample
-===============
+Example Repository
+==================
 
-A demonstration of setting up Travis CI with Google Test
+Currently under development.
