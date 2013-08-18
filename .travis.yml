@@ -4,8 +4,7 @@ language: cpp
 compiler:
     - g++
 before_script:
-    - pwd
-    - export OLD_DIRECTORY=pwd
+    - OLD_DIRECTORY=$(pwd)
     - sudo apt-get install libgtest-dev
     - cd /usr/src/gtest
     - sudo cmake .
