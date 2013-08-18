@@ -1,8 +1,18 @@
 # This file tells Travis CI how to build and run your tests
-# Hopefull, this will work
+
+# Specify that we're using cpp
 language: cpp
+
+# Specify the g++ compiler
 compiler:
     - g++
+
+# Before our testing script runs, we need to install the gtest headers
+# and build the gtest libraries
+#
+# Fortunately, the Travis CI servers let us do this
+# Unless you've done something special, there should be no need to change
+# these commands
 before_script:
     - OLD_DIRECTORY=$(pwd)
     - sudo apt-get install libgtest-dev
@@ -11,7 +21,15 @@ before_script:
     - sudo make
     - sudo mv libg* /usr/lib/
     - cd $OLD_DIRECTORY
+
+# Runs the make test command
 script: "make test"
+
+# Always test master branch
 branches:
     only:
         - master
+
+# This disables email notifications after every test
+notifications:
+    email: false
