@@ -8,7 +8,7 @@ Test: run.cpp test.cpp
 	g++ -pedantic -Wall test.cpp -o Test -lgtest -lpthread -lgtest_main
 
 test: Test
-	Test
+	./Test
 
 clean:
 	rm -f *.o
