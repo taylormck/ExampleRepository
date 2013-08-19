@@ -9,7 +9,7 @@ To fork a repository on Github,
 go to any of the project's pages and click the Fork button on the top right.
 This will create your own copy of the repository.
 
-![Fork Button](/img/forkButton.png)  
+![Fork Button](../img/forkButton.png)  
 <sup>The Fork button</sup>
 
 Now you can clone your new fork and get to work.
@@ -61,7 +61,7 @@ then go on back to your fork's page on Github.
 Select the branch whose changes you want to upload,
 then click the Compare and Review button.
 
-![Compare and Review](/img/compareAndReviewButton.png)  
+![Compare and Review](../img/compareAndReviewButton.png)  
 <sup>The Compare and Review button</sup>
 
 This will bring up a page where you can review your changes and create a pull request.
@@ -71,10 +71,10 @@ may fill in a title and summary of the pull request.
 Click the Send Pull Request button to the this pull request to the original repository.
 
 <!-- TODO add createPullRequest and sendPullRequest images -->
-![Create Pull Request](/img/createPullRequest.png)  
+![Create Pull Request](../img/createPullRequest.png)  
 <sup>The Create Pull Request button</sup>
 
-![Send Pull Request](/img/sendPullRequest.png)  
+![Send Pull Request](../img/sendPullRequest.png)  
 <sup>The Send Pull Request button</sup>
 
 In the original repository, you will find that your pull request has been added
@@ -105,10 +105,10 @@ Informally, the process may look something like this
 
 <!-- TODO -->
 Here's an example of a commit referencing an issue in this very repository.
-![Commit Issue Tag](/img/commitIssueTag.png)  
+![Commit Issue Tag](../img/commitIssueTag.png)  
 <sup>The commit message references an issue.</sup>
 
-![Issue Referenced](/img/issueReferenced.png)  
+![Issue Referenced](../img/issueReferenced.png)  
 <sup>The issue thread now contains a notification that is was referenced.</sup>
 
 Feel free to look at the actual
