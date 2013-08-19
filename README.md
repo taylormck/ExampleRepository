@@ -21,6 +21,7 @@ Explanations of tools and features used in this repository
 - [Git Usage](/readmes/GitUsage.md)
 - [Google Test](/readmes/GoogleTest.md)
 - [Trello](/readmes/Trello.md)
+- [Pivotal Tracker](/readmes/PivotalTracker.md)
 - [Hubot](/readmes/Hubot.md)
 - [Travis CI](/readmes/TravisCI.md)
 
