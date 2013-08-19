@@ -27,6 +27,49 @@ To fork a repository on Github,
 go to any of the project's pages and click the Fork button on the top right.
 This will create your own copy of the repository.
 
+![Fork Button](/img/forkButton.png)  
+<sup>The Fork button</sup>
+
+Now you can clone your new fork and get to work.
+You can create branches, make changes, make commits, and push the changes
+back to Github.
+For now, your changes will only affect your repository, not the original.
+
+######Creating a Pull Request
+Once you've done some work with a fork,
+you may want to have the owner of the original repository take a look at it,
+maybe even integrate it.
+We do this using a Pull Request.
+First thing's first, you'll need to add the original repository as a remote.
+This can be done using the following command.
+
+`git remote add upstream [original repository's url]`
+
+From there, we need to pull down any work that's been done since you last
+synced with the original.
+This can be done with a simple fetch.
+
+`git fetch`
+
+Next, we need to merge in the changes.
+We'll do this using the rebase command instead of merge.
+This will often help us avoid merge conflicts and will keep our history cleaner.
+You can read more about rebase in
+[The Magical and Not Harmful Rebase](http://jeffkreeftmeijer.com/2010/the-magical-and-not-harmful-rebase/).
+You'll want to rebase from the latest stable code, which is usually the `develop` branch.
+If the original doesn't have a `develop` branch, you may have to use `master`.
+When in doubt, check the original repository's readme or ask the owners what branch to use.
+The command will look like this.
+
+`git rebase develop`  
+<sup>Remember that you may need to rebase from a branch other than develop</sup>
+
+The rebase command will go one commit at a time.
+If there are any merge conflicts along the way,
+the rebase will stop until you've resolved them.
+Once resolved, you can continue the rebase using
+
+`git rebase --continue`
 
 Google Test
 -----------
