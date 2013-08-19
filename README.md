@@ -17,6 +17,11 @@ If you find anything to be unclear, open up an issue and I'll get around to it.
 If you know a cool new tool or feature that I'm not using,
 feel free to open an issue or make a pull request.
 
+Git/Github Usage
+----------------
+<!-- TODO -->
+
+
 Google Test
 -----------
 Google Test is a C++ testing suite.
