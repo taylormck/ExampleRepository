@@ -35,7 +35,7 @@ You can create branches, make changes, make commits, and push the changes
 back to Github.
 For now, your changes will only affect your repository, not the original.
 
-######Creating a Pull Request
+######Getting the latest code from the original
 Once you've done some work with a fork,
 you may want to have the owner of the original repository take a look at it,
 maybe even integrate it.
@@ -71,11 +71,50 @@ Once resolved, you can continue the rebase using
 
 `git rebase --continue`
 
+######Creating a Pull Request
 Now that you've got the latest code from the original,
 test to make sure that you're changes are still working correctly.
 Commit and push when you're ready,
 then go on back to your fork's page on Github.
 Select the branch whose changes you want to upload,
+then click the Compare and Review button.
+
+<!-- TODO add compareAndReview button img -->
+
+This will bring up a page where you can review your changes and create a pull request.
+You may view the diff of every file changed and a list of commits.
+Click the Create Pull Request area and you will given some text areas where you
+may fill in a title and summary of the pull request.
+Click the Send Pull Request button to the this pull request to the original repository.
+
+<!-- TODO add createPullRequest and sendPullRequest images -->
+
+In the original repository, you will find that your pull request has been added
+as an issue.
+The owner of the original repository may now review your changes.
+The pull request also acts as a thread,
+and they may comment on it and discuss your changes with you.
+Once they are satisfied, they may merge your pull request into the original.
+Remember, whether they accept your code or not is up to them.
+
+######Tagging Issues and Other Users
+On Github, in pretty much any text area you can type in, you can link to issues
+of the current directory.
+This makes histories easier to read, and can keep the status of issues up to date.
+You simply a pound sign and the number of the issue.
+If the message includes one of the words fixes, fixed, close, closes, or closed,
+then the numbered issue will be closed automatically.
+If automatically closing more than one issue, you must say one of the magic words
+again before each issue number.
+The issue's thread will be updated to show that it was referenced.
+You can also tag other Github users by using the at sign followed by their name.
+This will send them a notificaton and a link to the thread.
+This can be done in an other issues, pull requests, and commit messages.
+Informally, the process may look something like this
+
+`git commit -am "Fixed #14"`  
+<sup>This will automatically close issue 14 when pushed to Github</sup>
+
 <!-- TODO -->
 
 Google Test
