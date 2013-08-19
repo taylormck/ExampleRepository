@@ -9,8 +9,16 @@ Create and verify an account on Pivotal Tracker.
 Go to your profile page and scroll to the bottom.
 Click the CREATE NEW TOKEN button.
 We will need this token later.
+
+![API Token Area](../img/apiToken.png)  
+<sup>Create a new token here</sup>
+
 Create a new project and add a new story.
 Use whatever settings you like.
+Once created, view the settings to find the id.
+
+![Story Settings](../img/story.png)  
+<sup>The id can be found here</sup>
 
 Go to your repositories page.
 In settings, look up service hooks.
