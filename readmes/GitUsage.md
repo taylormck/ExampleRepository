@@ -103,6 +103,9 @@ Informally, the process may look something like this
 `git commit -am "Fixed #14"`  
 <sup>This will automatically close issue 14 when pushed to Github</sup>
 
+![Tagging Users](../img/userTag.png)  
+<sup>Tagging a user will send them a notification in Github, which may email them</sup>
+
 <!-- TODO -->
 Here's an example of a commit referencing an issue in this very repository.
 ![Commit Issue Tag](../img/commitIssueTag.png)  
