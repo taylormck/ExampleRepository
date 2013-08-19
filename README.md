@@ -77,7 +77,7 @@ Google Test is a C++ testing suite.
 I find it very well designed and it is my preferred way to test C/C++ code.  
 Take a look at the [project home page](https://code.google.com/p/googletest/).  
 If you need help setting it up or creating test programs,
-take a look at [Google Test Example Repository](https://github.com/taylormck/GoogleTestExample).
+take a look at the [Google Test Example repository](https://github.com/taylormck/GoogleTestExample).
 
 Project Management
 ------------------
@@ -93,3 +93,14 @@ Travis CI
 ---------
 <!-- TODO -->
 Coming soon.
+
+Reading/Links
+-------
+Some literature associated with git, Github, and some of the tools seen in this repository.
+
+- [Team Collaboration with Github](http://net.tutsplus.com/articles/general/team-collaboration-with-github/)
+- [The Magical and Not Harmful Rebase](http://jeffkreeftmeijer.com/2010/the-magical-and-not-harmful-rebase/)
+- [Git Flow (nvie)](http://nvie.com/posts/a-successful-git-branching-model/)
+- [Github Flow](http://scottchacon.com/2011/08/31/github-flow.html)
+- [Google Test](https://code.google.com/p/googletest/)
+- [Google Test Example](https://github.com/taylormck/GoogleTestExample)
