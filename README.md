@@ -161,6 +161,12 @@ On the navigation list to the left, click Service Hooks.
 On the service hooks page, scroll down the list and click Trello.
 You will now see a few text fields, some check fields, and an install notes section.
 
+![Navigation List](/img/navigationList.png)  
+<sup>The navigation list</sup>
+
+![Trello Install Notes](/img/trelloInstallNotes.png)  
+<sup>Trello Install Notes</sup>
+
 Under install note 1, you will see a link that says "create a consumer token".
 Open this link in a new tab, accept, and copy the token it gives you.
 
