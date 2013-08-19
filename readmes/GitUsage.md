@@ -89,7 +89,7 @@ Remember, whether they accept your code or not is up to them.
 On Github, in pretty much any text area you can type in, you can link to issues
 of the current directory.
 This makes histories easier to read, and can keep the status of issues up to date.
-You simply a pound sign and the number of the issue.
+You simply put a pound sign and the number of the issue.
 If the message includes one of the words fixes, fixed, close, closes, or closed,
 then the numbered issue will be closed automatically.
 If automatically closing more than one issue, you must say one of the magic words
