@@ -17,7 +17,6 @@ feel free to open an issue or make a pull request.
 
 Git/Github Usage
 ----------------
-<!-- TODO -->
 ######Forking a repository
 Unless you're the owner or a collaborator of a repository,
 you won't be able to modify it directly.
@@ -79,7 +78,8 @@ then go on back to your fork's page on Github.
 Select the branch whose changes you want to upload,
 then click the Compare and Review button.
 
-<!-- TODO add compareAndReview button img -->
+![Compare and Review](/img/compareAndReviewButton.png)  
+<sup>The Compare and Review button</sup>
 
 This will bring up a page where you can review your changes and create a pull request.
 You may view the diff of every file changed and a list of commits.
@@ -88,6 +88,11 @@ may fill in a title and summary of the pull request.
 Click the Send Pull Request button to the this pull request to the original repository.
 
 <!-- TODO add createPullRequest and sendPullRequest images -->
+![Create Pull Request](/img/createPullRequest.png)  
+<sup>The Create Pull Request button</sup>
+
+![Send Pull Request](/img/sendPullRequest.png)  
+<sup>The Send Pull Request button</sup>
 
 In the original repository, you will find that your pull request has been added
 as an issue.
@@ -116,6 +121,17 @@ Informally, the process may look something like this
 <sup>This will automatically close issue 14 when pushed to Github</sup>
 
 <!-- TODO -->
+Here's an example of a commit referencing an issue in this very repository.
+![Commit Issue Tag](/img/commitIssueTag.png)  
+<sup>The commit message references an issue.</sup>
+
+![Issue Referenced](/img/issueReferenced.png)  
+<sup>The issue thread now contains a notification that is was referenced.</sup>
+
+Feel free to look at the actual
+[commit message](https://github.com/taylormck/ExampleRepository/commit/569929599ac821a90504e41c18c03d9fe17c4792)
+and
+[issue thread](https://github.com/taylormck/ExampleRepository/issues/16).
 
 Google Test
 -----------
