@@ -71,6 +71,13 @@ Once resolved, you can continue the rebase using
 
 `git rebase --continue`
 
+Now that you've got the latest code from the original,
+test to make sure that you're changes are still working correctly.
+Commit and push when you're ready,
+then go on back to your fork's page on Github.
+Select the branch whose changes you want to upload,
+<!-- TODO -->
+
 Google Test
 -----------
 Google Test is a C++ testing suite.
