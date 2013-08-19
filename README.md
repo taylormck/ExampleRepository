@@ -144,8 +144,8 @@ take a look at the [Google Test Example repository](https://github.com/taylormck
 Project Management
 ------------------
 ######Trello
-This repository now has a Trello board.
-[Example Repository board on Trello](https://trello.com/b/m6rhwkg2/example-repository)
+This repository now has a Trello board.  
+[Example Repository board on Trello](https://trello.com/b/m6rhwkg2/example-repository)  
 All commits and pull requests will automatically create cards on the Trello board.
 This is particularly useful implementation of a Kanban board.
 All work done is added to the board for quick review.
@@ -177,6 +177,9 @@ Replace BOARDID with the board id from the board's url.
 Upon opening the new url, you will have a json file with all the board's
 lists and their id's.
 Copy the desired id's into the corresponding text fields.
+
+![Board ID](/img/boardid.png)  
+<sup>The Board ID in the URL</sup>
 
 Apply the settings, and you're done.
 Now all commits and pull requests will create cards on Trello.
