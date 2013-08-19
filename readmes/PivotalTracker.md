@@ -3,6 +3,7 @@ Pivotal Tracker
 The repository now has a
 [Pivotal Tracker project]
 (https://www.pivotaltracker.com/s/projects/894000).
+It is public and you may view it all you like.
 
 ######Setting Up Pivotal Tracker
 Create and verify an account on Pivotal Tracker.
